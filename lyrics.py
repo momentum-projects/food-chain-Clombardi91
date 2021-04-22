@@ -4,25 +4,27 @@
 # make a function that calls repeated phrases with each series.
 
 animals = [
-    ('fly', 'I dont know she swallowed a fly, perhaps she will die.'),
-    ('spider', 'It wiggled and jiggled and tickled inside her.'),
-    ('bird', 'How absurd, to swallow a bird.'),
-    ('cat', 'Imagine that, she swallowed a cat.'),
-    ('dog', 'What a hog, to swallow a dog.'),
-    ('goat', 'She just opened her throat and swallowed a goat.'),
-    ('cow', 'I dont know how she swallowed a cow.'),
-    ('horse', 'Shes dead of course.')]
+    "There was an old lady who swallowed a fly, I dont why know she swallowed that fly, perhaps she will die."
+    "There was an old lady who swallowed a spider, It wiggled and jiggled and tickled inside her."
+    "There was an old lady who swallowed a bird, How absurd, to swallow a bird."
+    "There was an old lady who swallowed a cat, Imagine that, she swallowed a cat."
+    "There was an old lady who swallowed a dog, What a hog, to swallow a dog."
+    "There was an old lady who swallowed a goat, She just opened her throat and swallowed a goat."
+    "There was an old lady who swallowed a cow, I dont know how she swallowed a cow."
+    "There was an old lady who swallowed a horse, Shes dead of course."]
     
     #intro = "There was an old lady who swallowed a"
 
-def intro(line_1):
-    line_1 = "There was an old lady who swallowed a"
+# def intro():
+#     intro = line_1
+#     line_1 = ("There was an old lady who swallowed a")
+#     print(intro)
     
-while line_1 +animal+
+
 
 def play(animal):
     for animal in animals:
-        print(f'{animal}')
+        print(f' {animal} ')
         
 
 play(animals)
