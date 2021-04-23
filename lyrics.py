@@ -1,30 +1,66 @@
-# make a function for opening sentance
-# new animal is introduced with each series.
+# make a function for each verse
+# new animal is introduced with each verse.
 # each series has both unique phrases and repeating phrases.
 # make a function that calls repeated phrases with each series.
 
-animals = [
-    "There was an old lady who swallowed a fly, I dont why know she swallowed that fly, perhaps she will die."
-    "There was an old lady who swallowed a spider, It wiggled and jiggled and tickled inside her."
-    "There was an old lady who swallowed a bird, How absurd, to swallow a bird."
-    "There was an old lady who swallowed a cat, Imagine that, she swallowed a cat."
-    "There was an old lady who swallowed a dog, What a hog, to swallow a dog."
-    "There was an old lady who swallowed a goat, She just opened her throat and swallowed a goat."
-    "There was an old lady who swallowed a cow, I dont know how she swallowed a cow."
-    "There was an old lady who swallowed a horse, Shes dead of course."]
-    
-    #intro = "There was an old lady who swallowed a"
+def title():
+    line = "I know an old lady"
+    print(line)
 
-# def intro():
-#     intro = line_1
-#     line_1 = ("There was an old lady who swallowed a")
-#     print(intro)
-    
+def intro():
+    line = """There was an old lady who swallowed a fly, 
+            I don't know why she swallowed the fly, 
+            Perhaps she'll die."""
+    print(line)
 
+def verse_2():
+    line = """There was an old lady who swallowed a spider, 
+            that wiggled and jiggled inside her. She swallowed the spider to catch the fly. 
+            I don't know why she swallowed that fly, 
+            Perhaps she'll die."""
+    print(line)
 
-def play(animal):
-    for animal in animals:
-        print(f' {animal} ')
-        
+def verse_3():
+    line = """There was an old lady who swallowed a bird,
+            How absurd to swallow a bird.
+            She swallowed the bird to catch the spider,
+            She swallowed the spider to catch the fly,
+            I don't know why she swallowed that fly,
+            Perhaps she'll die."""
+    print(line)
 
-play(animals)
+def verse_4():
+    line = """There was an old lady who swallowed a cat,
+            Imagine that to swallow a cat.
+            She swallowed the cat to catch the bird,
+            She swallowed the bird to catch the spider,
+            She swallowed the spider to catch the fly,
+            I don't know why she swallowed that fly,
+            Perhaps she'll die."""
+    print(line)
+
+def verse_5():
+    line = """There was an old lady who swallowed a dog,
+            What a hog to swallow a dog.
+            She swallowed the dog to catch the cat,
+            She swallowed the cat to catch the bird,
+            She swallowed the bird to catch the spider,
+            She swallowed the spider to catch the fly,
+            I don't know why she swallowed that fly,
+            Perhaps she'll die."""
+    print(line)
+
+def outro():
+    line = """There was an old lady who swallowed a horse,
+            She died of course!"""
+
+def song():
+    title()
+    intro()
+    verse_2()
+    verse_3()
+    verse_4()
+    verse_5()
+    outro()
+
+song()
