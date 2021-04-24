@@ -12,7 +12,8 @@ stack_lines = ["She swallowed the cow to catch the goat.\n",
             "She swallowed the dog to catch the cat.\n",
             "She swallowed the cat to catch the bird.\n",
             "She swallowed the bird to catch the spider that wriggled and jiggled and tickled inside her.\n",
-            "She swallowed the spider to catch the fly.\n"]
+            "She swallowed the spider to catch the fly.\n"
+            "I don't know why she swallowed that fly! Perhaps she'll die!\n"]
 
 def intro():
     line = """There was an old lady who swallowed a fly, 
@@ -24,7 +25,7 @@ def build_verse():
     #for index in range(len(animal_list)):
         #line = f'She swallowed the {animal_list[index]} to catch the {animal_list[index-1]} I dont know why she swallowed the fly. Perhaps she will die!'
         #print(line)
-        print(opening_lines[0], stack_lines[-1], opening_lines[1], stack_lines[-2], opening_lines[2], stack_lines[-3], opening_lines[3], stack_lines[-4], opening_lines[4], stack_lines[-5], opening_lines[5], stack_lines[-6])
+        print(opening_lines[0], stack_lines[-1], opening_lines[1], stack_lines[-2], stack_lines[-1], opening_lines[2], stack_lines[-3], stack_lines[-2], stack_lines[-1], opening_lines[3], stack_lines[-4], stack_lines[-3], stack_lines[-2], stack_lines[-1], opening_lines[4], stack_lines[-5], stack_lines[-4], stack_lines[-3], stack_lines[-2], stack_lines[-1], opening_lines[5], stack_lines[-6], stack_lines[-5], stack_lines[-4], stack_lines[-3], stack_lines[-2], stack_lines[-1],)
 
 def outro():
     line = "There was an old lady who swallowed a horse, She died of course!"
